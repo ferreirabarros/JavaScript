@@ -61,6 +61,8 @@ console.log( nome || "Vitoria");
 
 // null/object = nulo 
 let nulo = null;
+//não tem nenhum valor nem tipo
+//não se referencia a nenhum endereço de memoria
 
 //typeof mostra o tipo primitivo da variaveis
 console.log(typeof nulo, nulo);
@@ -69,6 +71,7 @@ console.log(typeof nulo, nulo);
 
 // underfned = indefinida
 let indef;
+//normalmento o proprio codigo atribue esse tipo
 
 //typeof mostra o tipo primitivo da variaveis
 console.log(typeof indef, indef);

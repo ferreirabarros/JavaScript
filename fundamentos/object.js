@@ -3,7 +3,7 @@ prod1.nome = 'Xandy';
 
 console.log(prod1);
 { nome: 'Xandy' }
-// object é um conjunto de elementos que tem sua chave (nome) e valor (Xandy)
+// object é um conjunto de elementos que tem sua chave (nome/atributo) e valor (Xandy)
 
 prod1.preco = `R$` + 59.90;
 

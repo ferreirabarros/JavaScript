@@ -21,6 +21,42 @@ let vf = true;
 //typeof mostra o tipo primitivo da variaveis
 console.log(typeof vf, vf);
 
+var vf = true;
+var vf1 = 1;
+// 1 é true
+
+// ! uma ves inverte o resultado !! duas vezes mostra o resultado original mas força a torna lo do tipo boolean
+console.log('Tipos que são verdadeiros');
+console.log(!!3); //numeros inteiro
+console.log(!!-1); // numeros inteiros e negativod != de 0
+console.log(!!"  "); //Spring somente com espaço
+console.log(!![]); //arrays
+console.log(!!{});//objects
+console.log(!!Infinity);//infinito
+console.log(!! "text");//springs com texto
+console.log(!!(isAtivo = true));//qual variavem atribuidas a estes valores anteriores
+
+
+console.log('Tipos que são Folgo');
+console.log(!!0);//0
+console.log(!!'');//spring vazias
+console.log(!!null);//nulo
+console.log(!!(undefined)); indefinido
+console.log(!!(isAtivo - false));// qualquer variavel que foi atribuida a um desses varoleres anteriores
+
+console.log("tipo boolean usando || (ou)");
+console.log(!!('' || null || 0 || '  '));
+//true pois spring com espaço e true
+//true paraquando tem um ou mais item true
+//false quando todos são false
+
+
+console.log(('' || undefined || 0 || 3 ));
+//retorna somente o valor verdadeiro
+var nome = "";
+console.log( nome || "Vitoria");
+
+
 
 
 // null/object = nulo 

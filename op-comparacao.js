@@ -28,7 +28,7 @@ console.log(idade === "25");
 
 
 
-var idade = 25;
+var idade = 25; 
 
 console.log(idade != 24);
 // != diferente de (mesmo sendo do mesmo tipo)

@@ -24,7 +24,7 @@ console.log(idade == "25");
 var idade = 25;
 
 console.log(idade === "25");
-// === exatamente iqual a
+// === exatamente iqual a (em valor tipo e referencia)
 
 
 

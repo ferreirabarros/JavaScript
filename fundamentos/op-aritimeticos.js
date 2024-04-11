@@ -28,9 +28,13 @@ console.log(valor1 * valor2);
 // * vai multiplicar os valores
 
 
-var valor1 = 5;
+var valor1 = 10;
 var valor2 = 2;
 
 
 console.log(valor1 / valor2);
 // / vai dividir os valores
+
+
+console.log(valor1 % valor2);
+// vai mostrar o resto da divição 

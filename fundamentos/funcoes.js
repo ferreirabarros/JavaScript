@@ -24,10 +24,10 @@ const Soma = function (a, b){
 Soma(2, 3);
 // 5
 
-// forma reduzida com =>
+// função arrow forma reduzida com =>
 const Sub = (a, b) => {
   console.log(a - b);
-}
+} //esta forma sempre sera ananima. para chamala precisa ser armazenado numa variavel
 
 Sub(3, 2);
 //1

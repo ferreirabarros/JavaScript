@@ -54,7 +54,8 @@ console.log(nome);
 
 
 
-
-
 // com var e possivel subscrever variaveis varias vezes.
 // var é ruim pois as vezes vc pode esquecer que ja declarou e vc não será avisado
+
+
+

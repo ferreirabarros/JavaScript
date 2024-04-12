@@ -13,7 +13,25 @@
 <!-- no html se usa a tag script para ativas o java script -->
   <script>
     console.log("olá Mundo");
-  </script>
+    var name = window.prompt('Qual é o seu nome?');
+    window.alert('É um prazer te conhecer, '+ name); 
+    var n1 = window.prompt('Digite um numero:');
+    var n2 = window.prompt('Digite outro numero:');
+    var soma =  n1 + n2
+
+    window.alert('A soma dos valores é:' + soma);
+     //nesse exemplo as variavel recebem string
+
+    var n3 = Number.parseFloat(window.prompt('Digite um numero:'));
+    var n4 = Number.parseFloat(window.prompt('Digite outro numero:'));
+    var soma =  n3 + n4
+
+    window.alert('A soma dos valores é:' + soma);
+    //Number.parseInt converte pra inteiro
+    //Number.parseFloat converte para real
+    //Number converte a numero(inteiro ou real)
+
+  </script>   
 
 
 <!-- JavaScript pode rodar no terminal de comando com : node (nome do arquivo.JS) -->

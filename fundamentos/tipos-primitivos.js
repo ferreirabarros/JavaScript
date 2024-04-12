@@ -37,7 +37,7 @@ console.log(!! "text");//springs com texto
 console.log(!!(isAtivo = true));//qual variavem atribuidas a estes valores anteriores
 
 
-console.log('Tipos que são Folgo');
+console.log('Tipos que são False');
 console.log(!!0);//0
 console.log(!!'');//spring vazias
 console.log(!!null);//nulo

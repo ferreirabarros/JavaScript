@@ -38,3 +38,14 @@ console.log(valor1 / valor2);
 
 console.log(valor1 % valor2);
 // vai mostrar o resto da divição 
+
+console.log(valor1 ** valor2);
+// exponenciação
+
+
+//precedencia de operação
+//  parenteses ()
+// exponenciação **
+// multiplicação dividão e modulo/resto
+// somas e subtração
+//

@@ -3,7 +3,7 @@ v e v = v
 v e f = f
 v e ? = f
 
-// com e todos tem que ser true para dar true
+// && com e todos tem que ser true para dar true
 // basta um ser false resultado será false
 
 
@@ -11,14 +11,14 @@ v ou ? = v
 f ou v = v
 f ou f = f
 
-//com ou basta um ser true resultado será true
+// || com ou basta um ser true resultado será true
 
 
 v xor v = f
 v xor f = v
 f xor v = v
 f xor f = f
-//com xor(exclusivo) para dar true os dois tem que ser diferentes
+// ^ com xor(exclusivo) para dar true os dois tem que ser diferentes
 
 
 !v = f

@@ -4,7 +4,11 @@ function fun1() {}
 //() se coloca os parametros
 
 //armazenar uma função em uma variavel
+//tambem chamada de function expression
 const fun2 = function(){} //função anonima 
+
+//tambem chamda de named functon expression
+const fun3 = function fun3(){} //função nomeada  e atribuida a variavel 
 
 //armazenar uma função em um array
 const array = [function(a, b){ return a + b}/*declarar dentro*/, fun2 /*armazenada*/, fun1 /*literal*/]
